@@ -1,0 +1,35 @@
+.content-wrapper {
+    width: 60%;
+    display: block;
+    margin: 30px auto;
+    height: 100%;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+#drop_area{
+	border: 2px dashed #bbb;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 25px;
+	text-align: center;
+	font: 20pt bold;
+	font-family: 'Droid Sans', sans-serif;
+	color: #bbb;
+}
+
+#tile-img-wrapper{
+	margin:20px;
+	width:100%;
+	height: auto;
+}
+
+.col img{
+	position:initial!important;
+}
+
+.col {
+	float: left;
+	margin: 0 0 -3px 0;
+	padding: 0;
+}

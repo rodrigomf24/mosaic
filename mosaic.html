@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+		<link rel="stylesheet" href="css/styles.css">
+		<script type="text/javascript" src="js/mosaic.js"></script>
+		<script type="text/javascript" src="js/client.js"></script>
+		<title>Mosaic</title>
+	</head>
+	<body>
+		<div class="content-wrapper">
+			<center><h1>Mosaic</h1></center>
+			<div id="drop_area">
+				Drop your image here
+			</div>
+		</div>
+		<script type="text/javascript">
+			(function(){
+				var dropArea = document.getElementById('drop_area');
+				dropArea.addEventListener('dragover', handleDragOver, false);
+				dropArea.addEventListener('drop', handleFileSelect, false);
+			})();
+		</script>
+	</body>
+</html>
